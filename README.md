@@ -1,11 +1,12 @@
 # EBS-Snapshot-using-AWS-lambda
 
 In the Create function wizard, ensure Author from scratch is selected and enter the following values in the bottom form:
-	• Name: EbsSnapshot
-  
-	• Runtime: Node.js 12.X
-  
-	• Role: Choose an existing role
+	
+	Name: EbsSnapshot
+        
+	Runtime: Node.js 12.X
+        
+	Role: Choose an existing role
   
 Existing role: EBSLambdaRole-...
 
@@ -76,9 +77,9 @@ In the Designer panel, click on Add triggers > EventBridge (CloudWatch Events
 
 Scroll down to the Configure triggers pane and enter the following values:
 	
-  • Rule: MonitorWebsiteTask
+  . Rule: MonitorWebsiteTask
   
-	• Schedule expression: rate(1 minute) 
+  . Schedule expression: rate(1 minute) 
   
 Enable trigger: Checked
 
